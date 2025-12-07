@@ -16,7 +16,7 @@ export default function Home() {
       time: "10:00 AM",
       location:
         "168 Aba George Road, Opposite Father's House, Port Harcourt, Nigeria",
-      speakers: "Ayovc Godfrey, Boma Ainsikai, Eric Akpokoro",
+      speakers: "Ayosi Godfrey, Boma Ainsikai, Eric Akpokoro",
       image:
         "/first-series.png",
       primaryCta: { label: "Register Now — It’s Free", href: "/event-detail" },
@@ -33,7 +33,7 @@ export default function Home() {
       time: "10:00 AM",
       location:
         "168 Aba George Road, Opposite Father's House, Port Harcourt, Nigeria",
-      speakers: "Ayovc Godfrey, Boma Ainsikai, Eric Akpokoro",
+      speakers: "Ayosi Godfrey, Boma Ainsikai, Eric Akpokoro",
       image:
         "/middle-series.jpg",
       primaryCta: { label: "See Previous Event", href: "/previous-event" },
@@ -51,7 +51,7 @@ export default function Home() {
       time: "10:00 AM",
       location:
         "168 Aba George Road, Opposite Father's House, Port Harcourt, Nigeria",
-      speakers: "Ayovc Godfrey, Boma Ainsikai, Eric Akpokoro",
+      speakers: "Ayosi Godfrey, Boma Ainsikai, Eric Akpokoro",
       image:
         "/first-series.png",
       primaryCta: { label: "Register Now — It’s Free", href: "/event-detail" },
