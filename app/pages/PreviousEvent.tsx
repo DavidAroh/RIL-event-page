@@ -34,19 +34,19 @@ export default function PreviousEvent() {
           <div>
             <ul className="flex flex-row items-center justify-center gap-8">
               <li className="flex flex-row items-center justify-center gap-1">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mt-1"></div>
+                <div className="w-3 h-3 rounded-full bg-blue-600 mt-0"></div>
                 Guardrails
               </li>
               <li className="flex flex-row items-center justify-center gap-1">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mt-1"></div>
+                <div className="w-3 h-3 rounded-full bg-blue-600 mt-0"></div>
                 Limiting
               </li>
               <li className="flex flex-row items-center justify-center gap-1">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mt-1"></div>
+                <div className="w-3 h-3 rounded-full bg-blue-600 mt-0"></div>
                 Fine Tuning
               </li>
               <li className="flex flex-row items-center justify-center gap-1">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mt-1"></div>
+                <div className="w-3 h-3 rounded-full bg-blue-600 mt-0"></div>
                 Injection Protection
               </li>
             </ul>
