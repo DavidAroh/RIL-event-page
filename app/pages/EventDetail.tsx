@@ -98,7 +98,7 @@ export default function EventDetail() {
           <div>
             <ul className="flex flex-row items-center justify-center gap-8">
               <li className="flex flex-row items-center justify-center gap-1">
-                <div className="w-3 h-3 rounded-full bg-blue-600 mt-1"></div>
+                <div className="w-3 h-3 rounded-full bg-blue-600 mt-0"></div>
                 Guardrails
               </li>
               <li className="flex flex-row items-center justify-center gap-1">
@@ -213,11 +213,11 @@ export default function EventDetail() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-full px-6 mt-16 bg-black h-[615px] overflow-hidden">
-        <div className="relative text-white p-20">
+      <section className="mx-auto max-w-full px-6 mt-30 bg-black h-[615px] overflow-hidden">
+        <div className="relative text-white p-8">
           <div className="grid grid-cols-1 md:grid-cols-[1fr_1.15fr_1fr] items-center gap-10">
-            <div className="relative">
-              <div className="rounded-b-full border-[6px] border-blue-600/80 relative bottom-25 bg-blue-600/80 w-[350px] h-[485px] z-10">
+            <div className="relative top-9">
+              <div className="rounded-b-full border-[6px] border-blue-600/80 relative bottom-23 bg-blue-600/80 w-[350px] h-[485px] z-10">
                 <img
                   src="/joseph.jpg"
                   alt="Joseph Akintolayo"
@@ -235,9 +235,9 @@ export default function EventDetail() {
                 Our Keynote <br />{" "}
                 <span className="text-blue-600">Speakers</span>
               </p>
-              <p className="mt-3 text-[15.8px] text-[#DBDADB] leading-7">
-                Be inspired by visionaries shaping the future of business <br />{" "}
-                and technology. Our keynote speakers share bold ideas and <br />{" "}
+              <p className="mt-3 text-[14.3px] text-[#DBDADB] leading-7">
+                Be inspired by visionaries shaping the future of business <br />
+                and technology. Our keynote speakers share bold ideas and <br />
                 insights that spark innovation and drive transformation.
               </p>
               <div className="mt-8 grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] items-start gap-11">
@@ -245,9 +245,8 @@ export default function EventDetail() {
                   <div className="text-blue-400 font-semibold text-[20px]">
                     Joseph Akintolayo
                   </div>
-                  <div className="mt-4 text-[16px] leading-6">
-                    Founder & CEO,
-                    <br />
+                  <div className="mt-4 text-[16px] leading-6 w-50">
+                    Founder & CEO, <br />
                     Renaissance Innovation Labs, Philanthrolab
                   </div>
                 </div>
@@ -259,16 +258,15 @@ export default function EventDetail() {
                   <div className="text-blue-400 font-semibold text-[20px]">
                     Shammah Nei
                   </div>
-                  <div className="mt-4 text-[16px] leading-6">
-                    Managing Director,
-                    <br />
+                  <div className="mt-4 text-[16px] leading-6 w-50">
+                    Managing Director,<br />
                     Renaissance Innovation Labs, Philanthrolab
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="relative">
+            <div className="relative right-10 top-9">
               <div className="rounded-t-full border-[6px] border-blue-600/80 relative top-20 bg-blue-600/80 w-[350px] h-[490px] z-10">
                 <img
                   src="/shammah.jpg"
@@ -287,7 +285,7 @@ export default function EventDetail() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 mt-16">
+      <section className="mx-auto max-w-7xl px-6 mt-30">
         <div className="flex items-start justify-between">
           <h2 className="font-hero text-[42px] text-blue-600">
             Experts<span className="text-black">/</span>Judges
@@ -424,7 +422,7 @@ export default function EventDetail() {
         </div>
       </section>
 
-      <section className="mx-auto w-full py-1 px-10 mt-16 bg-[#DEDEE0]">
+      <section className="mx-auto w-full py-1 px-10 mt-30 bg-[#DEDEE0]">
         <div className=" p-8 md:p-10">
           <div className="flex items-start justify-between">
             <h2 className="font-hero text-[42px] relative right-7">
