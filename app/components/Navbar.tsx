@@ -5,7 +5,7 @@ import NavDropdown from './NavDropdown'
 export default function Navbar() {
     return (
         <header className="sticky top-0 z-30 bg-white">
-            <div className="mx-auto max-w-7xl px-4">
+            <div className="mx-auto max-w-[1240px] px-4">
                 <div className="flex h-20 items-center gap-20 ">
                     <div className="flex items-center">
                         <img src="/ril-logo.svg" alt="renaissance innovation labs" className='w-40 h-40' />

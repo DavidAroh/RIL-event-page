@@ -424,10 +424,10 @@ export default function EventDetail() {
         </div>
       </section>
 
-      <section className="mx-auto w-full py-14 px-14 mt-16 bg-[#DEDEE0]">
+      <section className="mx-auto w-full py-1 px-10 mt-16 bg-[#DEDEE0]">
         <div className=" p-8 md:p-10">
           <div className="flex items-start justify-between">
-            <h2 className="font-hero text-[42px]">
+            <h2 className="font-hero text-[42px] relative right-7">
               <span className="text-blue-600">Why</span> Attend?
             </h2>
             <p className="hidden md:block max-w-sm text-[19px] text-[#7E7E7E]">
@@ -435,9 +435,9 @@ export default function EventDetail() {
               professionals, innovators, <br/> and industry leaders.
             </p>
           </div>
-          <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="relative rounded-[50px] bg-zinc-900 text-white p-13  overflow-hidden w-[610px] h-[289px]">
-              <div className="flex flex-col">
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-x-25 gap-y-10 relative right-8">
+            <div className="relative rounded-[50px] bg-zinc-900 text-white p-13 overflow-hidden w-[610px] h-[289px]">
+              <div className="flex flex-col ">
                 <div className="text-[20px] font-semibold tracking-wide">
                   CUTTING‑EDGE INSIGHTS
                 </div>
@@ -470,11 +470,11 @@ export default function EventDetail() {
                 sessions to <br/> sharpen your skills.
               </p>
             </div>
-            <div className="relative rounded-[50px] bg-zinc-900 text-white p-11 overflow-hidden w-[610px] h-[289px]">
+            <div className="relative rounded-[50px] bg-zinc-900 text-white p-13 overflow-hidden w-[610px] h-[289px]">
               <div className="text-[20px] font-semibold tracking-wide">
                 EXCLUSIVE NETWORKING
               </div>
-              <p className="mt-10 text-[18px] leading-8 max-w-xs font-syne">
+              <p className="mt-9 text-[18px] leading-8 max-w-xs font-syne">
                 Connect with AI leaders, <br/> investors, startups, and <br/> fellow
                 professionals at <br/> curated networking events.
               </p>
@@ -485,11 +485,11 @@ export default function EventDetail() {
                 03
               </div>
             </div>
-            <div className="relative rounded-[50px] bg-zinc-900 text-white p-11 overflow-hidden w-[610px] h-[289px]">
+            <div className="relative rounded-[50px] bg-zinc-900 text-white p-13 overflow-hidden w-[610px] h-[289px]">
               <div className="text-[20px] font-semibold tracking-wide">
                 HACKATHON
               </div>
-              <p className="mt-10 text-[18px] leading-8 max-w-xs font-syne">
+              <p className="mt-9 text-[18px] leading-8 max-w-xs font-syne">
                 Explore groundbreaking AI <br/> solutions, from emerging <br/> startups to
                 tech giants <br/> redefining the future.
               </p>
